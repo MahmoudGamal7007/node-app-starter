@@ -2,11 +2,14 @@ const express = require('express')
 
 const app = express()
 
-app.get('/', async (req, res) => {
+// PORT
+const PORT = 3000 || process.env.PORT
 
-  res.status(200).send('Hello From the Starter App')
+app.get('/', (req, res) => {
+  console.log('Hello')
+  res.send('Hello Mester Gamal')
 })
 
-app.listen(6000 || process.env.PORT, () => {
-  console.log(`the app is running on %s port`, 6000)
+app.listen(PORT, function () {
+  console.log(`the app is running on %s port`, PORT)
 })
