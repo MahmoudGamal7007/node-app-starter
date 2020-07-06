@@ -1,0 +1,25 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "A starter to help me configure my VPSs.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MahmoudGamal7007/node-app-starter.git"
+  },
+  "author": "Mahmoud Gamal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MahmoudGamal7007/node-app-starter/issues"
+  },
+  "homepage": "https://github.com/MahmoudGamal7007/node-app-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
